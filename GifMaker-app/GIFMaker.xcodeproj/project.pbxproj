@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A63081E2862C7EF00439EBC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A63081D2862C7EF00439EBC /* BaseView.swift */; };
+		7A6308202862C95500439EBC /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A63081F2862C95500439EBC /* SideMenu.swift */; };
+		7A6308222865619000439EBC /* gifview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6308212865619000439EBC /* gifview.swift */; };
+		7AE7B53B286245DA00700ABF /* GIFMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7B53A286245DA00700ABF /* GIFMakerApp.swift */; };
+		7AE7B53D286245DA00700ABF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7B53C286245DA00700ABF /* ContentView.swift */; };
+		7AE7B53F286245DC00700ABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7B53E286245DC00700ABF /* Assets.xcassets */; };
+		7AE7B542286245DC00700ABF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7B541286245DC00700ABF /* Preview Assets.xcassets */; };
+		7AE7B54C286245DC00700ABF /* GIFMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7B54B286245DC00700ABF /* GIFMakerTests.swift */; };
+		7AE7B556286245DC00700ABF /* GIFMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7B555286245DC00700ABF /* GIFMakerUITests.swift */; };
+		7AE7B558286245DC00700ABF /* GIFMakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7B557286245DC00700ABF /* GIFMakerUITestsLaunchTests.swift */; };
+		7AE7B566286247D400700ABF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7AE7B565286247D400700ABF /* FirebaseAuth */; };
+		7AE7B5682862498000700ABF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7B5672862498000700ABF /* GoogleService-Info.plist */; };
+		7AE7B56E28624DC100700ABF /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7B56D28624DC100700ABF /* LoginPage.swift */; };
+		7AE7B5702862511E00700ABF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7B56F2862511E00700ABF /* LoginViewModel.swift */; };
+		7AE7B572286261D300700ABF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7B571286261D300700ABF /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AE7B548286245DC00700ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE7B52F286245DA00700ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE7B536286245DA00700ABF;
+			remoteInfo = GIFMaker;
+		};
+		7AE7B552286245DC00700ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE7B52F286245DA00700ABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE7B536286245DA00700ABF;
+			remoteInfo = GIFMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A63081D2862C7EF00439EBC /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		7A63081F2862C95500439EBC /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		7A6308212865619000439EBC /* gifview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifview.swift; sourceTree = "<group>"; };
+		7AE7B537286245DA00700ABF /* GIFMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE7B53A286245DA00700ABF /* GIFMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFMakerApp.swift; sourceTree = "<group>"; };
+		7AE7B53C286245DA00700ABF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AE7B53E286245DC00700ABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AE7B541286245DC00700ABF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AE7B547286245DC00700ABF /* GIFMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE7B54B286245DC00700ABF /* GIFMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFMakerTests.swift; sourceTree = "<group>"; };
+		7AE7B551286245DC00700ABF /* GIFMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE7B555286245DC00700ABF /* GIFMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFMakerUITests.swift; sourceTree = "<group>"; };
+		7AE7B557286245DC00700ABF /* GIFMakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFMakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AE7B5672862498000700ABF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7AE7B56D28624DC100700ABF /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		7AE7B56F2862511E00700ABF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7AE7B571286261D300700ABF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AE7B534286245DA00700ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE7B566286247D400700ABF /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE7B544286245DC00700ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE7B54E286245DC00700ABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AE7B52E286245DA00700ABF = {
+			isa = PBXGroup;
+			children = (
+				7AE7B539286245DA00700ABF /* GIFMaker */,
+				7AE7B54A286245DC00700ABF /* GIFMakerTests */,
+				7AE7B554286245DC00700ABF /* GIFMakerUITests */,
+				7AE7B538286245DA00700ABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AE7B538286245DA00700ABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7B537286245DA00700ABF /* GIFMaker.app */,
+				7AE7B547286245DC00700ABF /* GIFMakerTests.xctest */,
+				7AE7B551286245DC00700ABF /* GIFMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AE7B539286245DA00700ABF /* GIFMaker */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7B56A286249EF00700ABF /* ViewModel */,
+				7AE7B569286249E400700ABF /* View */,
+				7AE7B5672862498000700ABF /* GoogleService-Info.plist */,
+				7AE7B53A286245DA00700ABF /* GIFMakerApp.swift */,
+				7AE7B53C286245DA00700ABF /* ContentView.swift */,
+				7AE7B53E286245DC00700ABF /* Assets.xcassets */,
+				7AE7B540286245DC00700ABF /* Preview Content */,
+			);
+			path = GIFMaker;
+			sourceTree = "<group>";
+		};
+		7AE7B540286245DC00700ABF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7B541286245DC00700ABF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AE7B54A286245DC00700ABF /* GIFMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7B54B286245DC00700ABF /* GIFMakerTests.swift */,
+			);
+			path = GIFMakerTests;
+			sourceTree = "<group>";
+		};
+		7AE7B554286245DC00700ABF /* GIFMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7B555286245DC00700ABF /* GIFMakerUITests.swift */,
+				7AE7B557286245DC00700ABF /* GIFMakerUITestsLaunchTests.swift */,
+			);
+			path = GIFMakerUITests;
+			sourceTree = "<group>";
+		};
+		7AE7B569286249E400700ABF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7B56D28624DC100700ABF /* LoginPage.swift */,
+				7AE7B571286261D300700ABF /* Home.swift */,
+				7A63081D2862C7EF00439EBC /* BaseView.swift */,
+				7A63081F2862C95500439EBC /* SideMenu.swift */,
+				7A6308212865619000439EBC /* gifview.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AE7B56A286249EF00700ABF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7B56F2862511E00700ABF /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AE7B536286245DA00700ABF /* GIFMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE7B55B286245DC00700ABF /* Build configuration list for PBXNativeTarget "GIFMaker" */;
+			buildPhases = (
+				7AE7B533286245DA00700ABF /* Sources */,
+				7AE7B534286245DA00700ABF /* Frameworks */,
+				7AE7B535286245DA00700ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIFMaker;
+			packageProductDependencies = (
+				7AE7B565286247D400700ABF /* FirebaseAuth */,
+			);
+			productName = GIFMaker;
+			productReference = 7AE7B537286245DA00700ABF /* GIFMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AE7B546286245DC00700ABF /* GIFMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE7B55E286245DC00700ABF /* Build configuration list for PBXNativeTarget "GIFMakerTests" */;
+			buildPhases = (
+				7AE7B543286245DC00700ABF /* Sources */,
+				7AE7B544286245DC00700ABF /* Frameworks */,
+				7AE7B545286245DC00700ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AE7B549286245DC00700ABF /* PBXTargetDependency */,
+			);
+			name = GIFMakerTests;
+			productName = GIFMakerTests;
+			productReference = 7AE7B547286245DC00700ABF /* GIFMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AE7B550286245DC00700ABF /* GIFMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE7B561286245DC00700ABF /* Build configuration list for PBXNativeTarget "GIFMakerUITests" */;
+			buildPhases = (
+				7AE7B54D286245DC00700ABF /* Sources */,
+				7AE7B54E286245DC00700ABF /* Frameworks */,
+				7AE7B54F286245DC00700ABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AE7B553286245DC00700ABF /* PBXTargetDependency */,
+			);
+			name = GIFMakerUITests;
+			productName = GIFMakerUITests;
+			productReference = 7AE7B551286245DC00700ABF /* GIFMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AE7B52F286245DA00700ABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7AE7B536286245DA00700ABF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7AE7B546286245DC00700ABF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7AE7B536286245DA00700ABF;
+					};
+					7AE7B550286245DC00700ABF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7AE7B536286245DA00700ABF;
+					};
+				};
+			};
+			buildConfigurationList = 7AE7B532286245DA00700ABF /* Build configuration list for PBXProject "GIFMaker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AE7B52E286245DA00700ABF;
+			packageReferences = (
+				7AE7B564286247D400700ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7AE7B538286245DA00700ABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AE7B536286245DA00700ABF /* GIFMaker */,
+				7AE7B546286245DC00700ABF /* GIFMakerTests */,
+				7AE7B550286245DC00700ABF /* GIFMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AE7B535286245DA00700ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE7B542286245DC00700ABF /* Preview Assets.xcassets in Resources */,
+				7AE7B53F286245DC00700ABF /* Assets.xcassets in Resources */,
+				7AE7B5682862498000700ABF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE7B545286245DC00700ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE7B54F286245DC00700ABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AE7B533286245DA00700ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE7B5702862511E00700ABF /* LoginViewModel.swift in Sources */,
+				7A6308222865619000439EBC /* gifview.swift in Sources */,
+				7AE7B53D286245DA00700ABF /* ContentView.swift in Sources */,
+				7AE7B572286261D300700ABF /* Home.swift in Sources */,
+				7A6308202862C95500439EBC /* SideMenu.swift in Sources */,
+				7A63081E2862C7EF00439EBC /* BaseView.swift in Sources */,
+				7AE7B56E28624DC100700ABF /* LoginPage.swift in Sources */,
+				7AE7B53B286245DA00700ABF /* GIFMakerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE7B543286245DC00700ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE7B54C286245DC00700ABF /* GIFMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE7B54D286245DC00700ABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE7B558286245DC00700ABF /* GIFMakerUITestsLaunchTests.swift in Sources */,
+				7AE7B556286245DC00700ABF /* GIFMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AE7B549286245DC00700ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AE7B536286245DA00700ABF /* GIFMaker */;
+			targetProxy = 7AE7B548286245DC00700ABF /* PBXContainerItemProxy */;
+		};
+		7AE7B553286245DC00700ABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AE7B536286245DA00700ABF /* GIFMaker */;
+			targetProxy = 7AE7B552286245DC00700ABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7AE7B559286245DC00700ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AE7B55A286245DC00700ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AE7B55C286245DC00700ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GIFMaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.group6.GIFMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AE7B55D286245DC00700ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GIFMaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.group6.GIFMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AE7B55F286245DC00700ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = group6.GIFMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIFMaker.app/GIFMaker";
+			};
+			name = Debug;
+		};
+		7AE7B560286245DC00700ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = group6.GIFMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIFMaker.app/GIFMaker";
+			};
+			name = Release;
+		};
+		7AE7B562286245DC00700ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = group6.GIFMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIFMaker;
+			};
+			name = Debug;
+		};
+		7AE7B563286245DC00700ABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = group6.GIFMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIFMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AE7B532286245DA00700ABF /* Build configuration list for PBXProject "GIFMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE7B559286245DC00700ABF /* Debug */,
+				7AE7B55A286245DC00700ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE7B55B286245DC00700ABF /* Build configuration list for PBXNativeTarget "GIFMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE7B55C286245DC00700ABF /* Debug */,
+				7AE7B55D286245DC00700ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE7B55E286245DC00700ABF /* Build configuration list for PBXNativeTarget "GIFMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE7B55F286245DC00700ABF /* Debug */,
+				7AE7B560286245DC00700ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE7B561286245DC00700ABF /* Build configuration list for PBXNativeTarget "GIFMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE7B562286245DC00700ABF /* Debug */,
+				7AE7B563286245DC00700ABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AE7B564286247D400700ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7AE7B565286247D400700ABF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AE7B564286247D400700ABF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7AE7B52F286245DA00700ABF /* Project object */;
+}
